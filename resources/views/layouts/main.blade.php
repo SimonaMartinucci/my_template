@@ -9,7 +9,9 @@
 </head>
 <body>
 
-<h1>PROVA</h1>
+    @include('partials.navbar')
     
+    @yield('content')
+
 </body>
 </html>
